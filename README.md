@@ -1,5 +1,14 @@
 # Employee Burnout Prediction using PyTorch
 
+# Employee Burnout Prediction using PyTorch
+
+## Live Demo
+
+**API:** https://employee-burnout-api.azurewebsites.net
+
+**Swagger Documentation:**
+https://employee-burnout-api.azurewebsites.net/docs
+
 ## Overview
 
 Employee burnout is a growing problem in modern organizations. High workload, long working hours, poor job satisfaction, and continuous stress can gradually reduce employee productivity and increase attrition. Detecting burnout early allows organizations to take preventive actions before it affects both employees and business performance.
@@ -50,17 +59,17 @@ The project covers:
 
 # Tech Stack
 
-| Category | Technology |
-|-----------|------------|
-| Language | Python |
-| Deep Learning | PyTorch |
-| Data Processing | Pandas, NumPy |
-| Machine Learning Utilities | Scikit-Learn |
-| API Framework | FastAPI |
-| API Documentation | Swagger UI |
-| Cloud Platform | Microsoft Azure App Service |
-| Version Control | Git |
-| Repository Hosting | GitHub |
+| Category                   | Technology                  |
+| -------------------------- | --------------------------- |
+| Language                   | Python                      |
+| Deep Learning              | PyTorch                     |
+| Data Processing            | Pandas, NumPy               |
+| Machine Learning Utilities | Scikit-Learn                |
+| API Framework              | FastAPI                     |
+| API Documentation          | Swagger UI                  |
+| Cloud Platform             | Microsoft Azure App Service |
+| Version Control            | Git                         |
+| Repository Hosting         | GitHub                      |
 
 ---
 
@@ -169,14 +178,14 @@ Example request:
 
 ```json
 {
-    "Age": 30,
-    "Gender": "Male",
-    "Experience": 5,
-    "WorkHoursPerWeek": 45,
-    "RemoteRatio": 80,
-    "SatisfactionLevel": 7,
-    "StressLevel": 8,
-    "JobRole": "Engineer"
+  "Age": 30,
+  "Gender": "Male",
+  "Experience": 5,
+  "WorkHoursPerWeek": 45,
+  "RemoteRatio": 80,
+  "SatisfactionLevel": 7,
+  "StressLevel": 8,
+  "JobRole": "Engineer"
 }
 ```
 
@@ -184,12 +193,12 @@ Example response:
 
 ```json
 {
-    "success": true,
-    "prediction": "No Burnout",
-    "probability": 0.1372,
-    "confidence": 86.28,
-    "model_version": "1.0.0",
-    "timestamp": "2026-07-21T18:12:41Z"
+  "success": true,
+  "prediction": "No Burnout",
+  "probability": 0.1372,
+  "confidence": 86.28,
+  "model_version": "1.0.0",
+  "timestamp": "2026-07-21T18:12:41Z"
 }
 ```
 
